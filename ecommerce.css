@@ -1,0 +1,199 @@
+/* importaçõs */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+/* Variaveis */
+:root{
+    --font-default: 'Poppins', sans-serif;
+    --cor-primaria:	#1C1C1C;
+}
+/* default */
+*{
+    margin:0;
+    padding:0;
+    bottom:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0.55)),url(/assets/planodefundo.jpg);
+    background-position:center;
+    background-size:cover;
+}
+/* parte header do site */
+header{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+/* menu de navegacao */
+.navegacao{
+    display:flex;
+    justify-content:right;
+}
+.navegacao ul{
+    list-style:none;
+    margin-top:1vh;
+    margin-right:4vw;
+}
+.navegacao li{
+    display:inline-block;
+    padding:2.3rem;
+    font-size:1.4rem;
+    font-weight: bold;
+    transition:0.4s all;
+}
+.navegacao button{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    background-color:gray;
+    border:none;
+    font-size:1.2rem;
+    margin-top:5vh;
+    margin-right:6vw;
+    border-radius:30rem;
+    width:12vw;
+    height:7vh;
+    cursor:pointer;
+    box-shadow:inset 0 0 0 0 black;
+    transition:ease-out 0.5s;
+        
+}
+/* h1 da imagnes */
+h1{
+    font-size:2.5rem;
+    margin-left:5vw;
+    margin-top:5vh;
+    font-weight:bold;
+    cursor: pointer;
+    transition:0.3s all;
+}
+/* main do site */
+main{
+    color:white;
+    flex-direction:column;
+    margin-top:20vh;
+    margin-left:8vw;
+
+}
+/* box das letras */
+
+.dentro h2{
+    font-size:2.9rem;
+}
+.dentro p{
+    margin-left:0.99vw;
+    font-weight:bold;
+    font-size:1.1rem;
+    line-height:3rem;
+}
+/* botão do main */
+main button{
+    color:white;
+    font-weight:bold;
+    background-color:gray;
+    font-size:1.2rem;
+    border:none;
+    box-shadow:0 0 0 0 black;
+    transition:ease-out 0.5s;
+    cursor:pointer;
+    width:18vw;
+    height:8vh;
+    border-radius:5rem;
+}
+/* footer do site */
+footer{
+    background-color:rgba(0, 0, 0, 0.842);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:90vh;
+    height:40vh;
+    width:100%;
+    color:white;
+}
+/* contenier do footer */
+.footer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10vh;
+}
+/* caixa 1 */
+.caixa-1{
+    margin-left:4vw;
+   
+}
+.caixa-1 h3{
+    margin-top:-7vh;
+    font-size:2.5rem;
+}
+.caixa-1 p{
+    font-weight:bold;
+    font-size:1.2rem;
+    margin-top:3vh;
+}
+/* caixa 2 */
+.caixa-2{
+    margin-top:1vw;
+}
+.caixa-2 h4{
+    font-size:1.9rem;
+}
+.caixa-2 p{
+    margin-top:2vh;
+    font-weight:bold;
+    font-size:0.96rem;
+}
+/* caixa 3 */
+.caixa-3{
+    margin-right:4vw;
+    margin-top:2vh;
+}
+.caixa-3 h5{
+    font-size:1.9rem;
+}
+.caixa-3 p{
+    font-weight:bold;
+    font-size:0.96rem;
+    margin-top:2vh;
+}
+/* caixa 4 */
+.caixa-4{
+    margin-top:0vh;
+    margin-right:8vw;
+}
+.caixa-4 h6{
+    font-size:1.9rem;
+    margin:16px;
+}
+.caixa-4 i{
+    margin-left:3vw;
+    font-size:3.0rem;
+}
+/* houver do site */
+h1:hover{
+    font-size:2.8rem;
+
+}
+li:hover{
+    font-size:1.6rem;
+    font-weight:bold;
+    color:black;
+}
+.navegacao button:hover{
+    height:8vh;
+    font-size:1.3rem;
+    box-shadow:inset 300px 0 0 0 black;
+    color:white;
+}
+button:hover{
+    height:9vh;
+    font-size:1.3rem;
+    box-shadow:inset 300px 0 0 0 black;
+}
+.caixa-4 i:hover{
+    color:gray;
+    font-size:3.2rem;
+}
+
+/* media querry do site resposivar */
