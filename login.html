@@ -6,9 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Login</title>
 </head>
 <body>
-    <h1>login</h1>    
+    <div class="cotanier">
+        <!-- nome da pagina -->
+        <h1>login</h1>
+        <!-- cadastrar com as redes Socias -->
+        <div class="redes-socias">
+            <ul>
+                <i class="devicon-google-plain"></i>
+                <i class="devicon-facebook-plain"></i>
+            </ul>
+        </div>
+        <!-- prenehcimento dos campos do formulario -->
+        <div class="formulario">
+            <form action="forum">
+                <!-- Name -->
+                <label for="name">
+                    <span>Name</span>
+                    <input type="text" id="name"name="name">
+                </label>
+                <!-- Email -->
+                <label for="email">
+                    <span>Email</span>
+                    <input type="email" id="email"name="email">
+                </label>
+                <!-- Password -->
+                <label for="password">
+                    <span>Password</span>
+                    <input type="password" id="passoword"name="password">
+                </label>
+                <!-- botão de submit -->
+                <input type="submit" id="botao" name="botão">
+            </form>
+            <button>Cadastrar-se</button>
+        </div>
+    </div>
+  
 </body>
 </html>
