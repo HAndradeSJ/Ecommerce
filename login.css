@@ -1,10 +1,11 @@
 /* importaçõs */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
 /* variaveis */
 :root{
     --font-default: 'Poppins', sans-serif;
     --cor-primaria:	#1C1C1C;
+    --cor-secundaria:#8880fe;
 }
 /* default */
 *{
@@ -13,10 +14,11 @@
     bottom:0;
     box-sizing:border-box;
     color:black;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image:linear-gradient( to right,rgba(85, 85, 85, 0.918),#1c1c1cc7);
+    background-image:linear-gradient(rgba(0,0,0,.59),rgba(0,0,0,0.59)),url(/assets/fundologin.jpg);
+    background-size:cover;
     background-position:center;
 }
 /* div do quadro central */
@@ -26,27 +28,24 @@ body{
     border-radius:12px;
     width:26vw;
     height:75vh;
-    background-color:white;
+    background-color:var(--cor-primaria);
 }
 /* titulo do login */
-.cotanier h1{
+ h1{
+    color:var(--cor-secundaria);
+    margin-top:10vh;
     font-weight:bold;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     text-align:center;
 }
 /* redes Socias */
 .redes-socias{
     font-size:1.8rem;
-    margin-top:5vh
+    margin-top:4vh;
+    margin-left:0vw;    
 }
 .redes-socias i{
-    padding:6px;
-    align-items:center;
+    color:var(--cor-secundaria);
+    padding:4px;
+    align-items:left;
 }
-
-/* formulario */
-.formulario{
-    margin-top:10vh;
-}
-
-
