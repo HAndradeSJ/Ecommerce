@@ -2,3 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
 
 /* variaveis */
+:root{
+    --font-default: 'Poppins', sans-serif;
+    --cor-primaria:	#1C1C1C;
+}
+/* default */
+*{
+    margin:0;
+    left: 0;
+    bottom:0;
+    box-sizing:border-box;
+    color:black;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background-image:linear-gradient( to right,rgba(85, 85, 85, 0.918),#1c1c1cc7);
+    background-position:center;
+}
+/* div do quadro central */
+.cotanier{
+    margin-top:13vh;
+    margin-left:10vw;
+    border-radius:12px;
+    width:26vw;
+    height:75vh;
+    background-color:white;
+}
+/* titulo do login */
+.cotanier h1{
+    font-weight:bold;
+    font-size: 2.3rem;
+    text-align:center;
+}
+/* redes Socias */
+.redes-socias{
+    font-size:1.8rem;
+    margin-top:5vh
+}
+.redes-socias i{
+    padding:6px;
+    align-items:center;
+}
+
+/* formulario */
+.formulario{
+    margin-top:10vh;
+}
+
+
