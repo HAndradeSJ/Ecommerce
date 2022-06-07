@@ -41,12 +41,14 @@ body{
     font-weight:bold;
     font-size: 3.0rem;
     text-align:center;
+    transition:0.2s all;
 }
 /* redes Socias */
 .redes-socias{
     font-size:1.6rem;
     margin-left:-3vw;
-    margin-top:3vh;  
+    margin-top:3vh;
+    transition:0.2 all; 
 }
 .redes-socias i{
     color:var(--cor-secundaria);
@@ -77,6 +79,7 @@ body{
     border-radius:8px;
     border:none;
     background-color: #363535;
+    transition:0.2s all;
 }
 /* botão de houver */
 .botao{
@@ -94,8 +97,33 @@ body{
     height:7vh;
     border:none;
     background-color:#363535;
+    transition:0.2s all;
 }
 .botao button:last-child{
     margin-left:2vw;
 }
 /* houvers da pagina */
+
+/* titulo da pagina */
+h1:hover{
+    font-size:3.2rem;
+}
+/* redes socias */
+.redes-socias i:hover{
+    font-size:2.0rem;
+    color:white;
+}
+/* inputss */
+input:hover{
+    font-size:22vw;
+    height:7vh;
+}
+/* botãos */
+.botao button:hover{
+    width:10vw;
+    height:8vh;
+    background-color:var(--cor-secundaria);
+    color:black;
+    font-size:1.0rem;
+}
+/* Media querry de resposividade */
