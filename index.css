@@ -1,3 +1,52 @@
+/* importações */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+/* variaveis */
+:root{
+    --cor-primaria:	#1C1C1C;
+}
+/* padrão */
+*{
+    margin:0;
+    padding:0;
+    bottom:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* header do site */
+header{
+    background-color:var(--cor-primaria);
+    height:12vh;
+    width:100%;
+    border-color: #1C1C1C solid;
+}
+/* barra de menu */
+.barra{
+    margin-left:2vw;
+    margin-top:3vh;
+    max-width:40px;
+}
+/* titulo da pagina h1 */
+h1{
+    font-size:2.0rem;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin-top:-7.5vh;
+}
+/* icones a esquerda do menu */
+.menu{
+    margin-top:-7.5vh;
+    margin-right:2vw;
+    display:flex;
+    justify-content:right;
+}
 .foto1{
-    max-width:50px;
+    padding:10px;
+    max-width:60px;
+}
+.foto2{
+    padding:10px;
+    max-width:60px;
 }
