@@ -37,16 +37,46 @@ h1{
 }
 /* icones a esquerda do menu */
 .menu{
-    margin-top:-7.5vh;
-    margin-right:2vw;
+    margin-top:-7vh;
+    margin-right:3vw;
     display:flex;
     justify-content:right;
 }
 .foto1{
-    padding:10px;
-    max-width:60px;
+    margin-left:20vw;
+    padding:0px;
+    max-width:45px;
 }
 .foto2{
-    padding:10px;
-    max-width:60px;
+    margin-left:2.5vw;
+    padding:0px;
+    max-width:45px;
+}
+/* main */
+.contanier{
+    margin-right:5vw;
+    margin-left:5vw;
+    margin-top:10vh;
+    display:flex;
+    justify-content:space-between;
+
+}
+/* box-1 */
+.box1 img{
+    max-width:300px;
+}
+.box1 h2{
+    margin-top:2vh;
+    text-align:center;
+}
+
+
+/* box-2 */
+.box2 img{
+    max-width:300px;
+}
+
+/* box-3 */
+.box3 img{
+    max-width:300px;
 }
