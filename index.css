@@ -23,9 +23,9 @@ header{
 }
 /* barra de menu */
 .barra{
-    margin-left:2vw;
-    margin-top:3vh;
-    max-width:40px;
+    margin-left:3vw;
+    margin-top:1vh;
+    max-width:60px;
 }
 /* titulo da pagina h1 */
 h1{
@@ -33,11 +33,11 @@ h1{
     font-weight:bold;
     text-align:center;
     color:white;
-    margin-top:-7.5vh;
+    margin-top:-9vh;
 }
 /* icones a esquerda do menu */
 .menu{
-    margin-top:-7vh;
+    margin-top:-8vh;
     margin-right:3vw;
     display:flex;
     justify-content:right;
@@ -66,17 +66,117 @@ h1{
     max-width:300px;
 }
 .box1 h2{
+    font-size:1.5rem;
     margin-top:2vh;
     text-align:center;
 }
-
-
+.box1 p{
+    font-weight:bold;
+    font-size:1.0rem;
+    text-align:center;
+    margin-top:1vh;
+}
 /* box-2 */
 .box2 img{
     max-width:300px;
 }
-
+.box2 h3{
+    font-size:1.5rem;
+    margin-top:2vh;
+    text-align:center;
+}
+.box2 p{
+    font-weight:bold;
+    font-size:1.0rem;
+    text-align:center;
+    margin-top:1vh;
+}
 /* box-3 */
 .box3 img{
     max-width:300px;
 }
+.box3 h4{
+    font-size:1.5rem;
+    margin-top:2vh;
+    text-align:center;
+}
+.box3 p{
+    font-weight:bold;
+    font-size:1.0rem;
+    text-align:center;
+    margin-top:1vh;
+}
+/* footer */
+footer{
+    background-color:var(--cor-primaria);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:120vh;
+    height:40vh;
+    width:100%;
+    color:white;
+}
+/* contenier do footer */
+.footer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:12vh;
+}
+/* caixa 1 */
+.caixa-1{
+    margin-left:4vw;
+   
+}
+.caixa-1 h3{
+    margin-top:-7vh;
+    font-size:2.5rem;
+}
+.caixa-1 p{
+    font-weight:bold;
+    font-size:1.2rem;
+    margin-top:3vh;
+}
+/* caixa 2 */
+.caixa-2{
+    margin-top:1vw;
+}
+.caixa-2 h4{
+    font-size:1.9rem;
+}
+.caixa-2 p{
+    margin-top:2vh;
+    font-weight:bold;
+    font-size:0.96rem;
+}
+/* caixa 3 */
+.caixa-3{
+    margin-right:4vw;
+    margin-top:2vh;
+}
+.caixa-3 h5{
+    font-size:1.9rem;
+}
+.caixa-3 p{
+    font-weight:bold;
+    font-size:0.96rem;
+    margin-top:2vh;
+}
+/* caixa 4 */
+.caixa-4{
+    margin-top:0vh;
+    margin-right:8vw;
+}
+.caixa-4 h6{
+    font-size:1.9rem;
+    margin:16px;
+}
+.caixa-4 i{
+    margin-left:3vw;
+    font-size:3.0rem;
+}
+/* houver do site */
+
+
+/* media querry do site resposivar */
