@@ -68,7 +68,12 @@ nav{
     overflow: hidden;
     transition:width 0.3s;
 }
+.seta a{
+    color:white;
+    font-size:2.0rem;
+}
 nav a{
+    cursor:pointer;
     padding:12px 10px 12px 32px;
     display:block;
     font-size:1.5rem;
