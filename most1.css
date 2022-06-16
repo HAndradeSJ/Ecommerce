@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+/* variaveis */
+:root{
+    --cor-primaria:	#1C1C1C;
+}
+/* padrão */
+*{
+    margin:0;
+    padding:0;
+    bottom:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* header do site */
+header{
+    background-color:var(--cor-primaria);
+    height:12vh;
+    width:100%;
+    border-color: #1C1C1C solid;
+}
+/* barra de menu */
+.barra{
+    margin-left:3vw;
+    margin-top:1vh;
+    max-width:60px;
+    transition:0.3s all;
+}
+/* titulo da pagina h1 */
+h1{
+    font-size:2.0rem;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    margin-top:-9vh;
+    transition:0.3s all;
+}
+/* icones a esquerda do menu */
+.menu{
+    margin-top:-6vh;
+    margin-right:3vw;
+    display:flex;
+    justify-content:right;
+}
+.foto1{
+    margin-left:20vw;
+    padding:0px;
+    max-width:45px;
+    transition:0.3s all;
+}
+.foto2{
+    margin-left:2.5vw;
+    padding:0px;
+    max-width:45px;
+    transition:0.3s all;
+}
+/* nav */
+nav{
+    background-color:#1C1C1C;
+    height:100%;
+    width:0px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    overflow: hidden;
+    transition:width 0.3s;
+}
+.seta a{
+    color:white;
+    font-size:2.0rem;
+}
+nav a{
+    cursor:pointer;
+    padding:12px 10px 12px 32px;
+    display:block;
+    font-size:1.5rem;
+    color:white;
+    text-decoration:none;
+    transition:0.3s all;
+}
+
+/* houver do site */
+h1:hover{
+    font-size:2.5rem;
+}
+/* icones do menu */
+.barra:hover{
+    max-width:70px;
+}
+.menu img:hover{
+    max-width:50px;
+}
+/* houver do menu */
+nav a:hover{
+    background-color:#302e2e;
+    margin-left:1vw;
+}
