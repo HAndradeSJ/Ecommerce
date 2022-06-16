@@ -56,6 +56,26 @@ h1{
     max-width:45px;
     transition:0.3s all;
 }
+/* nav */
+nav{
+    background-color:#1C1C1C;
+    height:100%;
+    width:0px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    overflow: hidden;
+    transition:width 0.3s;
+}
+nav a{
+    padding:12px 10px 12px 32px;
+    display:block;
+    font-size:1.5rem;
+    color:white;
+    text-decoration:none;
+    transition:0.3s all;
+}
 /* main */
 .contanier{
     margin-right:5vw;
@@ -212,7 +232,10 @@ h1:hover{
 /* footer */
 .caixa-1 h3{
     font-size:2.6rem;
-
+}
+nav a:hover{
+    background-color:#302e2e;
+    margin-left:1vw;
 }
 
 /* media querry do site resposivar */
