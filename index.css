@@ -81,6 +81,33 @@ nav a{
     text-decoration:none;
     transition:0.3s all;
 }
+/* nav do login */
+.login{
+    position:relative;
+    position:fixed;
+    top:13vh;
+    left:80vw;
+}
+.login ul{
+   background-color:var(--cor-primaria);
+   width:0vw;
+   height:18vh;
+   z-index:1;
+   overflow: hidden;
+   transition:width 0.3s
+}
+.login a{
+    text-align:center;
+    cursor:pointer;
+    display:block;
+    padding:6px 1px 6px 1px;
+    font-size:1.3rem;
+    color:white;
+    text-decoration:none;
+    transition:0.3s all;
+}
+
+
 /* main */
 .contanier{
     margin-right:5vw;
@@ -241,6 +268,11 @@ h1:hover{
 nav a:hover{
     background-color:#302e2e;
     margin-left:1vw;
+}
+.login a:hover{
+    background-color:#302e2e;
+    margin-left:1vw;
+
 }
 
 /* media querry do site resposivar */

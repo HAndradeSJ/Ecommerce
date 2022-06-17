@@ -5,6 +5,14 @@ function menu(){
 function menu1(){
     document.getElementById('menu').style.width = '0px';
 }
+// função de login
+function login(){
+    document.getElementById('login').style.width = '15vw'
+}
+function login1(){
+    document.getElementById('login').style.width ='0px';
+}
+
 // redirecionamento da pagina
 function most1(){
     window.location.href= "http://127.0.0.1:5500/most1.html";
