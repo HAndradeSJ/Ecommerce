@@ -11,7 +11,6 @@
 </head>
 <body>
     <script src="index.js"></script>
-    <!-- header da pagina -->
     <header>
         <!-- foto do menu -->
         <img src="/assets/barra.svg" alt="icone" class="barra" onclick="menu()">
@@ -21,22 +20,85 @@
         <!-- menu de navegação -->
         <ul class="menu">
             <!-- icones de login -->
-            <img src="/assets/imagem-do-usuario-com-fundo-preto.png" class="foto1" >
+            <img src="/assets/imagem-do-usuario-com-fundo-preto.png" class="foto1" onclick="login()" >
             <!-- icones de imagens de compra -->
-            <img src="/assets/sacolas-de-compras.png"class="foto2">
+            <img src="/assets/sacolas-de-compras.png"class="foto2" onclick="carrinho()">
         </ul>
     </header>
-      <!-- eslote de navegação -->
-      <nav id="menu">
+    <div class="login">
+        <ul id="login">
+            <a href="#">Henrique</a>
+            <a href="#">Sair</a>
+            <a class="seta1"onclick="login1()">&larr;</a>
+        </ul>
+    </div>
+    <!-- eslote de navegação -->
+    <nav id="menu">
         <a class="seta" onclick="menu1()">&larr;</a>
         <a href="#">Masculino</a>
         <a href="#">Feminino</a>
         <a href="#">Inverno</a>
         <a href="#">Vreão</a>
     </nav>
+    <!-- carrinho -->
+    <div class="carrinho" id="carrinho">
+        <div class="box11">
+            <h5>Carrinho</h5>
+            <a href="#"onclick=carrinhof()>&#215;</a>
+        </div>
+        <p>seu carrinho está vazio</p>
+        <button>Comprar</button>
+    </div>
     <!-- main da pagina -->
     <main>
+        <div class="contanier">
+            <img src="/assets/most1.web" alt="most1">
+            <div class="cont-info">
+                <div class="preco">
+                    <h3>R&#36;249,90</h3>
+                    <p>Em até 6x sem juros</p>
+                </div>
+                <div class="tamanho">
+                    <p>Tamanho</p>
+                    <button>P</button>
+                    <button>M</button>
+                    <button>G</button>
+                    <button>GG</button>
+                </div>
+                <div class="quantidade">
+                    <p>Quantidade</p>
+                    <span>1</span>
+                </div>
+                <button>Adicionar Ao Carrinho +</button>
+                <button>Compre Já</button>
+            </div>
+        </div>
 
     </main>
+    <!-- footer da pagina -->
+    <footer>
+        <div class="footer">
+            <div class="caixa-1">
+                <h3>E-commerce</h3>
+                <p>Compras cheios de amor</p>
+            </div>
+            <div class="caixa-2">
+                <h4>Sobre</h4>
+                <p>Somos uma loja virtual com a<br> que desejamos a melhor experiência para você</p>
+            </div>
+            <div class="caixa-3">
+                <h5>Contatos</h5>
+                <p>Rua milão jd europa 345</p>
+                <p>+55 19 98746900</p>
+            </div>
+            <div class="caixa-4">
+                <h6>Redes Socias</h6>
+                <ul>
+                    <i class="devicon-linkedin-plain"></i>
+                    <i class="devicon-facebook-plain"></i>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
