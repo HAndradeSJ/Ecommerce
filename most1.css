@@ -172,15 +172,16 @@ nav a{
 }
 /* imagens do contanir */
 .contanier img{
-    margin-left:7vw;
+    margin-left:15vw;
     max-width:400px;
 }
 /* contenier de informações */
 .cont-info{
-    margin-right:4vw;
+    border: gray solid 0.01px;
+    margin-right:6vw;
     height:85vh;
     width:30vw;
-    background-color:rgb(243, 235, 235);
+    background-color:white;
     flex-direction:column;
 }
 .cont-info h2{
@@ -189,12 +190,14 @@ nav a{
 }
 /* preco */
 .preco{
+    border:solid gray 0.1px;
     margin-top:5vh;
-    background-color:gray;
+    background-color:#f2f2f2;
     width:30vw;
     height:13vh;
 }
 .preco h3{
+    margin-top:3vh;
     margin-left:3vw;
     font-size:1.3rem;
     font-weight:bold;
@@ -214,12 +217,16 @@ nav a{
 }
 .tamanho button{
     background-color:white;
-    border:none;
+    border: gray solid 0.5px;
     font-weight:bold;
     height:5vh;
     width:3vw;
     text-align:center;
     margin-top:1vh;
+}
+.tamanho button :first-child{
+    background-color:black;
+    color:white;
 }
 /* quantidade */
 .quantidade{
@@ -232,22 +239,32 @@ nav a{
 }
 .quantidade span{
     font-weight:bold;
-    margin-top:2vh;
+    margin-top:0vh;
     margin-left:3vw;
 }
 /* botão de compra */
 .btn {
-    margin-left: ;
-    margin-top:10vh;
+    margin-left:3vw;
+    margin-top:8vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
 .btn button{
-    
-    width:10vw;
+    font-size:1.0rem;
+    font-weight:bold;
+    color:black;
+    background-color:white;
+    border:solid 0.3px;
+    height:8vh;
+    width:25vw;
 }
-
+.btn button:last-child{
+    margin-top:2vh;
+    background-color:black;
+    border:none;
+    color:white;
+}
 
 /* 
 footer do site */
@@ -337,3 +354,4 @@ nav a:hover{
     background-color:#302e2e;
     margin-left:1vw;
 }
+/* hovers do main */
