@@ -20,9 +20,18 @@ function carrinhof(){
     document.getElementById('carrinho').style.width = '0vw';
 }
 // função dos botões p
-function botão(){
-    document.getElementById('bott').style.backgroundColor = 'black';
-    document.getElementById('bott').style.color = 'white';
+function botão(bt){
+
+    var x ='bot'+bt
+    var color =document.getElementById(x).style.backgroundColor;
+    if (color == 'black'){
+        document.getElementById(x).style.backgroundColor = 'white';
+    document.getElementById(x).style.color = 'black';
+    }
+    else{   
+        document.getElementById(x).style.backgroundColor = 'black';
+    document.getElementById(x).style.color = 'white';
+    }
 }
 // redirecionamento da pagina
 function most1(){
