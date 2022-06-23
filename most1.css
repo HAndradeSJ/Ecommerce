@@ -172,6 +172,7 @@ nav a{
 }
 /* imagens do contanir */
 .contanier img{
+    margin-top:-1vh;
     margin-left:15vw;
     max-width:400px;
 }
@@ -223,6 +224,7 @@ nav a{
     width:3vw;
     text-align:center;
     margin-top:1vh;
+    transition:0.3s all;
 }
 .tamanho button :first-child{
     background-color:black;
@@ -258,6 +260,7 @@ nav a{
     border:solid 0.3px;
     height:8vh;
     width:25vw;
+    transition:0.3s all;
 }
 .btn button:last-child{
     margin-top:2vh;
@@ -355,3 +358,12 @@ nav a:hover{
     margin-left:1vw;
 }
 /* hovers do main */
+.tamanho button:active{
+    background-color:black;
+    color:white;
+}
+ /* botão */
+ .btn button:hover{
+    background-color:black;
+    color:white;
+ }

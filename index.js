@@ -19,7 +19,11 @@ function carrinho(){
 function carrinhof(){
     document.getElementById('carrinho').style.width = '0vw';
 }
-
+// função dos botões p
+function botão(){
+    document.getElementById('bott').style.backgroundColor = 'black';
+    document.getElementById('bott').style.color = 'white';
+}
 // redirecionamento da pagina
 function most1(){
     window.location.href= "http://127.0.0.1:5500/most1.html";
