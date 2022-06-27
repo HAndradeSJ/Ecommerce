@@ -33,6 +33,12 @@ function botão(bt){
     document.getElementById(x).style.color = 'white';
     }
 }
+// função do carrinho
+function carrinho1(){
+    document.getElementById('carrinho1').innerHTML="Moletom Canguro Basic Vermelho";
+
+}
+
 // redirecionamento da pagina
 function most1(){
     window.location.href= "http://127.0.0.1:5500/most1.html";
