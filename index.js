@@ -35,7 +35,7 @@ function botão(bt){
 }
 // função do carrinho
 function carrinho1(){
-    document.getElementById('carrinho1').innerHTML="Moletom Canguro Basic Vermelho";
+    document.getElementById("carrinho1").innerHTML='Moletom Canguro Basic Vermelho';
 
 }
 
